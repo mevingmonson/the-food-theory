@@ -11,6 +11,7 @@ export default class Search {
             // console.log(this.result);
         }
         catch (err) {
+            console.log(err);
             alert(`Item Not Found`);
         }
 
